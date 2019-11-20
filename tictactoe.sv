@@ -28,7 +28,7 @@ assign winX=|a;
 
 assign b[0]=&o[2:0]; //first line
 assign b[1]=&o[5:3]; //second line
-assign b[2]=&xo[8:6]; //third line
+assign b[2]=&o[8:6]; //third line
 assign b[3]=o[0]&o[3]&o[6]; //first column
 assign b[4]=o[1]&o[4]&o[7]; //second column
 assign b[5]=o[2]&o[5]&o[8]; //third column
