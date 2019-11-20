@@ -39,8 +39,8 @@ assign winO=|b;
 always_comb
 begin
 if(winX|winO)
-noWin=0;
-else
 noWin=1;
+else
+noWin=0;
 endmodule;
 
